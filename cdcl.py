@@ -176,7 +176,7 @@ symbolic_exp, clauses, levels, reasons = init()
 trail = []
 current_level = 0
 
-isSatisfiable = None
+isSatisfiable = True
 
 # 모든 값이 할당될 때까지
 while None in symbolic_exp.values() :
